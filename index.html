@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimal-ui">
+    <meta name="keywords" content="키워드1, 키워드2">
+    <title>Seohye-Kim Portfolio</title>
+    <link rel="shortcut icon" href="./images/favicon.ico">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/portfolio.css" type="text/css">
+    <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+    <link href="css/fontello-embedded.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,800&display=swap" rel="stylesheet">
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script defer src="./js/portfolio.js" type="text/javascript"></script>
+    <style>
+        .swiper-pagination{
+            margin-right: 55px;
+            margin-top: -10px;
+        }
+        .swiper-pagination-vertical.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-vertical>.swiper-pagination-bullets .swiper-pagination-bullet {
+            margin: 31px;
+            width: 15px;
+            height: 15px;
+        }
+        .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+            top: 100px;
+            height: fit-content;
+        }
+        .swiper-pagination-bullet {
+            width: 20px;
+            height: 20px;
+        }
+        .swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+            left: 80%;
+        }
+        @media screen and (max-width:1400px){
+            .swiper-pagination{
+            margin-right: 40px;
+            margin-top: -10px;
+        }
+        }   
+        .ytgallery{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h5>KIM SEO HYE</h5>
+        <ul>
+            <li class="pointer1">MAIN</li>
+            <li class="pointer2">PROFILE</li>
+            <li class="pointer3">PROJECT</li>
+            <li class="pointer4">DESIGN</li>
+            <li class="pointer5">ECT</li>
+            <li class="pointer6">CONTACT</li>
+        </ul>
+    </nav>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="header">
+                    <div class="header_wrapper">
+                        <div class="header_stand" id="main">
+                            <h1 class="design">
+                                Design
+                            </h1>
+                            <h1 class="port">
+                                portfolio
+                            </h1>
+                            <img src="./portfolio/01.png" alt="main_img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="profile" id="profile">
+                    <div class="profile_wrapper">
+                        <div class="profile_standard">
+                            <img src="./portfolio/img.png" alt="face">
+                            <div class="profile_semi">
+                                <h2>Kim Seo-hye</h2>
+                                <ul>
+                                    <li><i class="icon-gplus"></i>keeate@gmail.com</li>
+                                    <li><i class="icon-phone-squared"></i>010-2746-0545</li>
+                                    <li><i class="icon-twitter-squared"></i>@senti_roto</li>
+                                </ul>
+                            </div>
+                            <p>시각디자인의 가장 기본적인 포스터, 카드뉴스와 같은 2D 그래픽디자인에서부터 광고 디자인을 효과적이게 보이기 위해 유튜브를 통해 After Effect를 독학하였습니다.<br>이후 영상편집의 부족한 부분을 채우고자 교육기관에서 영상편집 과정을 수강했습니다.<br>
+                            또한, 이전 회사에서 식스샵이라는 플랫폼 제공 사이트 디자인 작업을 하다 보니 자연스럽게 웹퍼블리셔에 대한 관심이 높아졌습니다. <br><br>
+                            항상 배우고 새로운 시도를 하는 태도로 더욱 발전하는 트랜디한 디자인 작업물에 도움이 되리라 생각합니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="swiper project_swiper">
+                    <div class="swiper-pagination">
+                    </div>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="project" id="project">
+                                <h3>Projects</h3>
+                                <div class="project_first">
+                                    <div class="project_wrapper">
+                                        <div class="p_wrapper_left">
+                                            <h4>소리바다 사이트 리뉴얼</h4>
+                                            <ul class="tool">
+                                                <li style="background-color: #2c1b79;">PHOTOSHOP</li>
+                                                <li style="background-color: #2c1b79;">ILLUSTRATIOR</li>
+                                                <li style="background-color: #2c1b79;">HTML/CSS</li>
+                                                <li style="background-color: #2c1b79;">JAVASCRIPT</li>
+                                            </ul>
+                                            <p>소리바다는 스트리밍 및 다운로드 서비스를 지원하는 국내 음원 스트리밍 사이트입니다.
+                                            <br><br>
+                                            현재 소리바다 사이트의 경우 구 디자인을 지속적으로 사용하고 있으며, 주식회사 소리바다의 CCM 사이트를 중심으로 사업을 구성하고 있어 비교적 적은 디자인 업데이트가 이루어지고 있습니다.
+                                            <br><br>
+                                            따라서 웹사이트, 스트리밍사이트로서의 효과적인 레이아웃과 정보구성을 중심으로 리디자인을 진행하였습니다.</p>
+                                            <ul class="preview">
+                                                <li><button type="button"><a href="./project/soribada_mockup.html" target='_blank'>DOCUMENT</a></button></li>
+                                                <li><button type="button"><a href="https://keeate.github.io/Soribada_portfolio/" target='_blank'>GO TO SITE</a></button></li>
+                                            </ul>
+                                        </div>
+                                        <img src="./portfolio/web_2.png" alt="" class="project_shadow">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="project" id="project">
+                                <h3>Projects</h3>
+                                <div class="project_first">
+                                    <div class="project_wrapper">
+                                        <div class="p_wrapper_left">
+                                            <h4>국립공원 사이트 리뉴얼</h4>
+                                            <ul class="tool">
+                                                <li>PHOTOSHOP</li>
+                                                <li>HTML/CSS</li>
+                                            </ul>
+                                            <p>국립공원은 한라산 국립공원을 제외한 21개소의 환경부 장관 지정 보호구역입니다.
+                                            <br><br>
+                                            현재 국립공원은 관광이나 국민을 대상으로 한 체험 서비스, 등산로 등을 제공하고 있으며 이를 효과적으로 전달 하는 것에 있어 노후된 사이트를 지속적으로 사용하는 것은 무리가 있다고 판단하였습니다.
+                                            <br><br>
+                                            따라서 사용자가 필요한 정보를 습득하기에 용이한 레이아웃과 디자인으로 국립공원 사이트를 리뉴얼 하였습니다. </p>
+                                            <ul class="preview">
+                                                <li><button type="button"><a href="./project/kuklip_mockup.html" target='_blank'>DOCUMENT</a></button></li>
+                                                <li><button type="button"><a href="./project/kuklip/kuklip_main.html" target='_blank'>GO TO SITE</a></button></li>
+                                            </ul>
+                                        </div>
+                                        <img src="./portfolio/web_3.png" alt="" class="project_shadow">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="project" id="project">
+                                <h3>Projects</h3>
+                                <div class="project_first">
+                                    <div class="project_wrapper">
+                                        <div class="p_wrapper_left">
+                                            <h4>닥터마틴 어플리케이션</h4>
+                                            <ul class="tool">
+                                                <li style="background-color: #e6cf00;">PHOTOSHOP</li>
+                                                <li style="background-color: #e6cf00;">XD</li>
+                                                <li style="background-color: #e6cf00;">Figma</li>
+                                            </ul>
+                                            <p>닥터마틴은 가죽 위주의 신발 제품등을 취급하고 있는 커머스 어플리케이션입니다.
+                                            <br><br>
+                                            과거 인부들의 작업신발에서 현재는 퍼포먼스, 음악등과 함께 반항적인 디자인으로 인기를 끌고 있습니다.
+                                            <br><br>
+                                            닥터마틴의 어플리케이션의 경우 웹사이트와 동일한 디자인을 가지고 있어 사용자 편의와 국내 정서에 맞는 디자인으로 리디자인 하였습니다.</p>
+                                            <ul class="preview">
+                                                <li><button type="button"><a href="./project/dr_mockup.html" target='_blank'>DOCUMENT</a></button></li>
+                                                <li><button type="button"><a href="https://www.figma.com/proto/vmNCRYkIaByeXkTamoHoeI/Untitled?page-id=0%3A1&node-id=47%3A559&viewport=632%2C996%2C0.34&scaling=scale-down&starting-point-node-id=47%3A559 ">VIEW</a></button></li>
+                                            </ul>
+                                        </div>
+                                        <img src="./portfolio/app_1.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="project" id="project">
+                                <h3>Projects</h3>
+                                <div class="project_first">
+                                    <div class="project_wrapper">
+                                        <div class="p_wrapper_left">
+                                            <h4>여행 웹사이트 RAPY</h4>
+                                            <ul class="tool">
+                                                <li style="background-color: #53b668;">PHOTOSHOP</li>
+                                                <li style="background-color: #53b668;">ILLUSTRATIOR</li>
+                                            </ul>
+                                            <p>여행 브랜드 RAPY는 힐링 테라미 여행을 테마로 한 여행 커머스 서비스 브랜드 입니다.
+                                            <br><br>
+                                            공연, 호캉스 등의 여가생활을 즐길 수 있는 상품들이 패키지로 존재하며 원하는 라이프 테라피 스타일을 골라 가볍게 여행 준비를 할 수 있으며<br>키즈존과 반려동물 가능 숙소등을 보기 쉽게 표기하여 혼자만의 여행이 아닌 가족들과 함께하는 여행 또한 번거로운 확인 없이 즐길 수 있습니다.
+                                            <ul class="preview">
+                                                <li><button type="button">DOCUMENT</button></li>
+                                                <li><button type="button">GO TO SITE</button></li>
+                                            </ul>
+                                        </div>
+                                        <img src="./portfolio/web_4.png" alt="" class="project_shadow">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="project" id="project">
+                                <h3>Projects</h3>
+                                <div class="project_first">
+                                    <div class="project_wrapper">
+                                        <div class="p_wrapper_left">
+                                            <h4>한국 도자기 COPY</h4>
+                                            <ul class="tool">
+                                                <li style="background-color: #b66253;">HTML</li>
+                                                <li style="background-color: #b66253;">CSS</li>
+                                                <li style="background-color: #b66253;">JAVASCRIPT</li>
+                                            </ul>
+                                            <p>한국 도자기 공식 홈페이지의 메인화면 카피입니다.
+                                            <br><br>
+                                            와이드를 1400px로 변형하여 작업하였으며 PC와 테블릿, 모바일 세로 화면에서 지원 가능한 반응형 사이트로 제작하였습니다.
+                                            <br><br><br><br>
+                                            <ul class="preview">
+                                                <li><button type="button"><a href="./project/hankook/hankook.html" target='_blank'>GO TO SITE</a></button></li>
+                                            </ul>
+                                        </div>
+                                        <img src="./portfolio/web_5.png" alt="" class="project_shadow">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="project" id="project">
+                                <h3>Projects</h3>
+                                <div class="project_first">
+                                    <div class="project_wrapper">
+                                        <div class="p_wrapper_left">
+                                            <h4>던킨도너츠 COPY</h4>
+                                            <ul class="tool">
+                                                <li style="background-color: #ffca57;">HTML</li>
+                                                <li style="background-color: #ffca57;">CSS</li>
+                                                <li style="background-color: #ffca57;">JAVASCRIPT</li>
+                                            </ul>
+                                            <p>던킨도너츠 홈페이지의 메인화면 카피입니다.
+                                            <br><br>
+                                            와이드를 1400px로 변형하여 작업하였으며 고정형 사이트입니다.
+                                            <br><br><br><br>
+                                            <ul class="preview">
+                                                <li><button type="button"><a href="./project/dunkin/dunkin.html" target='_blank'>GO TO SITE</a></button></li>
+                                            </ul>
+                                        </div>
+                                        <img src="./portfolio/web_6.png" alt="" class="project_shadow">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="swiper design_swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="design" id="design">
+                            <div class="popup">
+                                <img src="./portfolio/harber_02.png" alt="" style="width: 500px; height:fit-content;" class="pop_01_02">
+                                <img src="./portfolio/harber_03.png" alt="" style="width: 300px; height:fit-content;" class="pop_01_03">
+                                <img src="./portfolio/harber_04.png" alt="" style="width: 250px; height:fit-content;" class="pop_01_04">
+                                <img src="./portfolio/harber_05.png" alt="" style="width: 500px; height:fit-content;" class="pop_01_05">
+                                <button class="close_button1">CLOSE</button>
+                            </div>
+                            <h3>Design</h3>
+                            <div class="design_wrapper1">
+                                <div class="design_wrap_right">
+                                    <h4>하르베르 아트앤디자인 브랜딩</h4>
+                                    <p>주식회사 산하 미술학원 브랜딩을 전담하여 진행하였습니다. <br>
+                                    ‘아이들의 미술관’을 테마로 깔끔하면서 모던한 느낌이지만 <br>
+                                    아이들이 다니는 학원이기 때문에 귀여운 캐릭터와 활동적인 메인컬러와 함께
+                                    디자인을 진행하였습니다.
+                                    <br><br>
+                                    브랜드의 메인컬러, 로고, 창문 부착용 시트지,<br>
+                                    홍보 상세페이지, 배너 및 현수막 등 학원 개원 전에 필요한 디자인 및<br>
+                                    브랜드 아이덴티티 작업을 하였으며, 학원 서류 및 송부용 봉투, 미디어보드
+                                    광고 영상, (식스샵)홈페이지를 제작하였습니다.  </p>
+                                </div>
+                            </div>
+                            <div class="design_slide">
+                                <ul>
+                                    <li class="brand_01_01"><img src="./portfolio/brand_01.png" alt="01"></li>
+                                    <li class="brand_01_02"><img src="./portfolio/brand_02.png" alt="02"></li>
+                                    <li class="brand_01_03"><img src="./portfolio/brand_03.png" alt="03"></li>
+                                    <li class="brand_01_04"><img src="./portfolio/brand_04.png" alt="04"></li>
+                                    <li class="brand_01_05"><img src="./portfolio/brand_05.png" alt="05"></li>
+                                </ul>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="design" id="design">
+                            <div class="popup2">
+                                <img src="./portfolio/haber_06.png" alt="" style="width: 700px; height:fit-content;" class="pop_02_02">
+                                <img src="./portfolio/haber_09.png" alt="" style="width: 500px; height:fit-content;" class="pop_02_04">
+                                <img src="./portfolio/haber_10.png" alt="" style="width: 500px; height:fit-content;" class="pop_02_05">
+                                <button class="close_button2">CLOSE</button>
+                            </div>
+                            <h3>Design</h3>
+                            <div class="design_wrapper2">
+                                <div class="design_wrap_right">
+                                    <h4>주식회사 하베르</h4>
+                                    <p>주식회사 하베르의 SNS 관리 및 상세페이지 디자인을 진행하였습니다<br>
+                                    아동 미술 키트를 제작하며, 미술교육 봉사를 통해 아이들이 다양한 예술 경험을 할 수 있도록 도우며 아이들의 예술작품을 통해 새로운 제품을 만드는 선순환 구조를 가지고 있습니다.<br>
+                                    <br>
+                                    하베르의 영상, 제품의 랜딩페이지, 산하 기관의 로고를 디자인 하였으며 식스샵을 통한 홈페이지 또한 구축하였습니다.</p>
+                                </div>
+                            </div>
+                            <div class="design_slide">
+                                <ul>
+                                    <li class="brand_02_01"><img src="./portfolio/brand_06.png" alt="06"></li>
+                                    <li class="brand_02_02"><img src="./portfolio/brand_07.png" alt="07"></li>
+                                    <li class="brand_02_03"><img src="./portfolio/brand_08.png" alt="08"></li>
+                                    <li class="brand_02_04"><img src="./portfolio/brand_09.png" alt="09"></li>
+                                    <li class="brand_02_05"><img src="./portfolio/brand_10.png" alt="10"></li>
+                                </ul>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="ect" id="ect">
+                    <div class="ect_gallery_popup">
+                        <ul>
+                            <li><img src="./portfolio/ect_01.png" alt="">
+                                <button class="close_button3">CLOSE</button></li>
+                            <li><img src="./portfolio/ect_02.png" alt="">
+                                <button class="close_button3">CLOSE</button></li>
+                            <li><img src="./portfolio/ect_gallery3.jpg" alt="">
+                                <button class="close_button3">CLOSE</button></li>
+                            <li><img src="./portfolio/ect_gallery4.png" alt="">
+                                <button class="close_button3">CLOSE</button></li>
+                            <li><button class="ytgallery"><a href="https://youtube.com/shorts/vEOlp3Yj7Z0?feature=share">영상 바로 보러가기</a></button>
+                                <button class="close_button3">CLOSE</button></li>
+                            <li><img src="./portfolio/ect_gallery6.png" alt="">
+                                <button class="close_button3">CLOSE</button></li>
+                            <li><img src="./portfolio/ect_gallery7.png" alt="">
+                                <button class="close_button3">CLOSE</button></li>
+                            <li><img src="./portfolio/ect_gallery8.png" alt="">
+                                <button class="close_button3">CLOSE</button></li>
+                            <li><img src="./portfolio/ect_gallery9.png" alt="">
+                                <button class="close_button3">CLOSE</button></li>
+                            <li><img src="./portfolio/ect_gallery10.png" alt="">
+                                <button class="close_button3">CLOSE</button></li>
+                            <li><img src="./portfolio/ect_gallery11.png" alt="">
+                                <button class="close_button3">CLOSE</button></li>
+                            <li><img src="./portfolio/ect_gallery12.png" alt="">
+                                <button class="close_button3">CLOSE</button></li>
+                            <li><img src="./portfolio/ect_gallery13.png" alt="">
+                                <button class="close_button3">CLOSE</button></li>
+                            <li><img src="./portfolio/ect_gallery14.png" alt="">
+                                <button class="close_button3">CLOSE</button></li>
+                            <li><img src="./portfolio/ect_gallery15.png" alt="">
+                                <button class="close_button3">CLOSE</button></li>
+                            <li><img src="./portfolio/ect_gallery16.png" alt="">
+                                <button class="close_button3">CLOSE</button></li>
+                            <li><img src="./portfolio/ect_gallery17.png" alt="">
+                                <button class="close_button3">CLOSE</button></li>
+                            <li><img src="./portfolio/ect_gallery18.png" alt="">
+                                <button class="close_button3">CLOSE</button></li>
+                            <li><button class="ytgallery"><a href="https://youtube.com/shorts/vEOlp3Yj7Z0?feature=share">영상 바로 보러가기</a></button>
+                                <button class="close_button3">CLOSE</button></li>
+                            <li><img src="./portfolio/ect_gallery20.png" alt="">
+                                <button class="close_button3">CLOSE</button></li>
+                            <li><img src="./portfolio/ect_gallery21.png" alt="">
+                                <button class="close_button3">CLOSE</button></li>
+                            <li><img src="./portfolio/ect_gallery22.png" alt="">
+                                <button class="close_button3">CLOSE</button></li>
+                        </ul>
+                    </div>
+                    <h3>Ect.</h3>
+                    <ul id="gallery_list" class="ect_list">
+                        <li><a href="#none">전체보기</a></li>
+                        <li><a href="#none">카드뉴스</a></li>
+                        <li><a href="#none">섬네일</a></li>
+                        <li><a href="#none">기타작업</a></li>
+                    </ul>
+                    <div class="gallery_all gallery_all1 on">
+                        <ul id="imggallery">
+                            <li><img src="./portfolio/ect_01.png" alt="img1"></li>
+                            <li><img src="./portfolio/ect_02.png" alt="img2"></li>
+                            <li><img src="./portfolio/ect_03.png" alt="img3"></li>
+                            <li><img src="./portfolio/ect_04.png" alt="img4"></li>
+                            <li><img src="./portfolio/ect_05.png" alt="img5"></li>
+                            <li><img src="./portfolio/ect_06.png" alt="img6"></li>
+                        </ul>
+                    </div>
+                    <div class="gallery_all gallery_all2">
+                        <ul id="imggallery">
+                            <li><img src="./portfolio/ect2_01.png" alt="img1"></li>
+                            <li><img src="./portfolio/ect2_02.png" alt="img2"></li>
+                            <li><img src="./portfolio/ect2_03.png" alt="img3"></li>
+                            <li><img src="./portfolio/ect2_04.png" alt="img4"></li>
+                            <li><img src="./portfolio/ect2_05.png" alt="img4"></li>
+                            <li><img src="./portfolio/ect2_06.png" alt="img4"></li>
+                        </ul>
+                    </div>
+                    <div class="gallery_all gallery_all3">
+                        <ul id="imggallery">
+                            <li><img src="./portfolio/ect3_01.png" alt="img1"></li>
+                            <li><img src="./portfolio/ect3_02.png" alt="img2"></li>
+                            <li><img src="./portfolio/ect3_03.png" alt="img3"></li>
+                            <li><img src="./portfolio/ect3_04.png" alt="img4"></li>
+                            <li><img src="./portfolio/ect3_05.png" alt="img3"></li>
+                            <li><img src="./portfolio/ect3_06.png" alt="img4"></li>
+                        </ul>
+                    </div>
+                    <div class="gallery_all gallery_all4">
+                        <ul id="imggallery">
+                            <li><img src="./portfolio/ect4_01.png" alt="img1"></li>
+                            <li><img src="./portfolio/ect5_01.png" alt="img2"></li>
+                            <li><img src="./portfolio/ect5_02.png" alt="img3"></li>
+                            <li><img src="./portfolio/ect5_03.png" alt="img4"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="contact">
+                    <h3>Contact</h3>
+                    <div class="contact_wrapper">
+                        <div class="contact_wrap">
+                            <img src="./portfolio/img.png" alt="img" class="small_img">
+                            <ul>
+                                <li><i class="icon-gplus"></i>keeate@gmail.com</li>
+                                    <li><i class="icon-phone-squared"></i>010-2746-0545</li>
+                                    <li><i class="icon-twitter-squared"></i>@senti_roto</li>
+                            </ul>
+                        </div>
+                        <div class="chat">
+                            <div class="chatting"><p>안녕하세요<br>디자이너 김서혜 입니다!</p>
+                            </div>
+                            <div class="chatting_sub">
+                                <div class="bubble">
+                                    <div class="box">
+                                        <div class="loader10"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <form action="submit">
+                            <input type="text" placeholder="보낼 메세지를 입력해주세요">
+                            <button type="submit">SEND</button>
+                        </form>
+                    </div>
+                </div>
+                    <div class="copyright">
+                        <p>ⓒ 2022. Seohye-Kim all rights reserved.</p>
+                    </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</body>
+</html>
