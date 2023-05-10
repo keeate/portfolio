@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Bodoni MT Condensed';
+    src: url("../font/BodoniMTCondensed.eot");
+    src: url('BodoniMTCondensed.eot?#iefix') format('embedded-opentype'),
+        url("../font/BodoniMTCondensed.woff2") format('woff2'),
+        url("../font/BodoniMTCondensed.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
